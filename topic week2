@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 style = "color: green">Objects</h2>
+
+<p id="object"></p>
+
+<script>
+// Create an object:
+var book = {
+  author: "Francesca Paci",
+  year: 2018,
+  bookName: "Un amor en Auschwitz",
+  language: "English, Spanish, German"
+};
+
+//I created more functions in the last topic
+// Display some data from the object:
+document.getElementById("object").innerHTML =
+ book.bookName + " is our best seller written by " + book.author;
+</script>
+
+</body>
+</html>
